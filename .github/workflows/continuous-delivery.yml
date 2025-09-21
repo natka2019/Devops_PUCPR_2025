@@ -16,7 +16,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: projetozipado2.zip
-        path: calculadora.py
+        path: src/calculadora.py
 
   deploy:
         runs-on: ubuntu-latest
