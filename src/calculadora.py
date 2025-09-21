@@ -11,4 +11,4 @@ def dividir (a, b):
     return a / b
 
 def media (a, b):
-    return a + b / 2
+    return (a + b) / 2
