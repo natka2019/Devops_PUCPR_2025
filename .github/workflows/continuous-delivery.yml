@@ -15,7 +15,7 @@ jobs:
     - name: Simulating Continuous Delivery
       uses: actions/upload-artifact@v4
       with:
-        name: projetozipado2.zip
+        name: projetozipado.zip
         path: src/calculadora.py
 
   deploy:
@@ -24,7 +24,7 @@ jobs:
         steps: 
             - uses: actions/download-artifact@v4
               with: 
-                name: projetozipado2.zip
+                name: projetozipado.zip
             - name: Display structure of downloaded files
               run: ls -R
 
